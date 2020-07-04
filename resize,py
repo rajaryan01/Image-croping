@@ -1,0 +1,11 @@
+# import Image module
+from PIL import Image
+
+# open the image
+Image1 = Image.open('D:/prostate1.PNG')
+
+# crop the image
+croppedIm = Image1.crop((100, 100, 200, 200))
+
+# show the image
+croppedIm.show()
